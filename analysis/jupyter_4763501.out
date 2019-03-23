@@ -1,0 +1,78 @@
+[I 20:34:41.710 NotebookApp] JupyterLab extension loaded from /hpc/applications/anaconda/3/lib/python3.6/site-packages/jupyterlab
+[I 20:34:41.710 NotebookApp] JupyterLab application directory is /hpc/applications/anaconda/3/share/jupyter/lab
+[I 20:34:41.712 NotebookApp] Serving notebooks from local directory: /scratch/users/ckoehler/datafest/datafest-2019/analysis
+[I 20:34:41.712 NotebookApp] The Jupyter Notebook is running at:
+[I 20:34:41.712 NotebookApp] http://127.0.0.1:49653/?token=f37939aee983ed5638bb7f89b55bde08b440f9e4a08f082b
+[I 20:34:41.712 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 20:34:41.734 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///users/ckoehler/.local/share/jupyter/runtime/nbserver-16020-open.html
+    Or copy and paste one of these URLs:
+        http://127.0.0.1:49653/?token=f37939aee983ed5638bb7f89b55bde08b440f9e4a08f082b
+  "ssh -L 49653:localhost:49653 ckoehler@login01.m2.smu.edu"
+[I 20:35:08.470 NotebookApp] 302 GET /?token=f37939aee983ed5638bb7f89b55bde08b440f9e4a08f082b (127.0.0.1) 0.80ms
+[I 20:35:30.528 NotebookApp] Creating new notebook in 
+[I 20:35:37.420 NotebookApp] Kernel started: fc466034-a399-443a-8617-8532049b95f4
+[I 20:35:38.774 NotebookApp] Adapting to protocol v5.1 for kernel fc466034-a399-443a-8617-8532049b95f4
+[I 20:37:37.399 NotebookApp] Saving file at /Untitled.ipynb
+[I 20:41:37.448 NotebookApp] Saving file at /Untitled.ipynb
+[I 20:43:37.522 NotebookApp] Saving file at /Untitled.ipynb
+[I 20:45:37.437 NotebookApp] Saving file at /Untitled.ipynb
+[I 20:47:37.426 NotebookApp] Saving file at /Untitled.ipynb
+[I 20:55:37.567 NotebookApp] Saving file at /Untitled.ipynb
+[I 20:57:37.418 NotebookApp] Saving file at /Untitled.ipynb
+[I 21:01:37.429 NotebookApp] Saving file at /Untitled.ipynb
+[I 21:03:37.429 NotebookApp] Saving file at /Untitled.ipynb
+[I 21:05:37.434 NotebookApp] Saving file at /Untitled.ipynb
+[I 21:07:37.446 NotebookApp] Saving file at /Untitled.ipynb
+[I 21:09:37.415 NotebookApp] Saving file at /Untitled.ipynb
+[I 21:11:37.410 NotebookApp] Saving file at /Untitled.ipynb
+[I 21:23:37.535 NotebookApp] Saving file at /Untitled.ipynb
+[I 21:25:37.408 NotebookApp] Saving file at /Untitled.ipynb
+[I 21:27:37.429 NotebookApp] Saving file at /Untitled.ipynb
+[I 21:51:37.442 NotebookApp] Saving file at /datafest-main.ipynb
+[I 21:59:37.448 NotebookApp] Saving file at /datafest-main.ipynb
+[I 22:01:37.538 NotebookApp] Saving file at /datafest-main.ipynb
+[I 22:05:37.531 NotebookApp] Saving file at /datafest-main.ipynb
+[I 22:07:37.723 NotebookApp] Saving file at /datafest-main.ipynb
+[I 22:09:37.518 NotebookApp] Saving file at /datafest-main.ipynb
+[I 22:11:37.533 NotebookApp] Saving file at /datafest-main.ipynb
+[I 22:17:37.460 NotebookApp] Saving file at /datafest-main.ipynb
+[I 22:19:37.482 NotebookApp] Saving file at /datafest-main.ipynb
+[I 22:21:37.484 NotebookApp] Saving file at /datafest-main.ipynb
+[I 22:23:37.551 NotebookApp] Saving file at /datafest-main.ipynb
+[I 22:29:37.488 NotebookApp] Saving file at /datafest-main.ipynb
+[I 22:31:37.603 NotebookApp] Saving file at /datafest-main.ipynb
+[I 22:35:37.497 NotebookApp] Saving file at /datafest-main.ipynb
+[I 22:37:37.506 NotebookApp] Saving file at /datafest-main.ipynb
+[W 22:45:08.778 NotebookApp] WebSocket ping timeout after 119917 ms.
+[I 22:45:13.781 NotebookApp] Starting buffering for fc466034-a399-443a-8617-8532049b95f4:e57413fd16d14c89ac5195c9fce623a4
+[I 22:46:04.952 NotebookApp] Saving file at /datafest-main.ipynb
+[I 22:48:04.883 NotebookApp] Saving file at /datafest-main.ipynb
+[I 22:54:04.929 NotebookApp] Saving file at /datafest-main.ipynb
+[I 22:56:04.839 NotebookApp] Saving file at /datafest-main.ipynb
+[I 22:58:04.911 NotebookApp] Saving file at /datafest-main.ipynb
+[I 23:01:02.005 NotebookApp] Kernel restarted: fc466034-a399-443a-8617-8532049b95f4
+[I 23:01:02.045 NotebookApp] Adapting to protocol v5.1 for kernel fc466034-a399-443a-8617-8532049b95f4
+[I 23:01:02.046 NotebookApp] Restoring connection for fc466034-a399-443a-8617-8532049b95f4:e57413fd16d14c89ac5195c9fce623a4
+[I 23:01:02.046 NotebookApp] Replaying 7 buffered messages
+[I 23:02:04.821 NotebookApp] Saving file at /datafest-main.ipynb
+[I 23:04:04.848 NotebookApp] Saving file at /datafest-main.ipynb
+[I 23:08:04.857 NotebookApp] Saving file at /datafest-main.ipynb
+[I 23:10:04.853 NotebookApp] Saving file at /datafest-main.ipynb
+[I 23:12:04.843 NotebookApp] Saving file at /datafest-main.ipynb
+[I 23:14:04.901 NotebookApp] Saving file at /datafest-main.ipynb
+[I 23:16:04.871 NotebookApp] Saving file at /datafest-main.ipynb
+[I 23:18:04.953 NotebookApp] Saving file at /datafest-main.ipynb
+[I 23:18:24.822 NotebookApp] Kernel interrupted: fc466034-a399-443a-8617-8532049b95f4
+[I 23:20:04.824 NotebookApp] Saving file at /datafest-main.ipynb
+[I 23:22:04.900 NotebookApp] Saving file at /datafest-main.ipynb
+[I 23:24:04.901 NotebookApp] Saving file at /datafest-main.ipynb
+[I 23:26:04.877 NotebookApp] Saving file at /datafest-main.ipynb
+[I 23:28:04.908 NotebookApp] Saving file at /datafest-main.ipynb
+[I 23:30:04.798 NotebookApp] Saving file at /datafest-main.ipynb
+[I 23:32:04.937 NotebookApp] Saving file at /datafest-main.ipynb
+[I 23:33:47.810 NotebookApp] Saving file at /datafest-main.ipynb
+[I 23:33:55.793 NotebookApp] Starting buffering for fc466034-a399-443a-8617-8532049b95f4:e57413fd16d14c89ac5195c9fce623a4
+slurmstepd: error: *** JOB 4763501 ON p027 CANCELLED AT 2019-03-22T23:34:13 ***
