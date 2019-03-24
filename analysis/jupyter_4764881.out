@@ -1,0 +1,168 @@
+[I 11:20:42.660 NotebookApp] JupyterLab extension loaded from /hpc/applications/anaconda/3/lib/python3.6/site-packages/jupyterlab
+[I 11:20:42.660 NotebookApp] JupyterLab application directory is /hpc/applications/anaconda/3/share/jupyter/lab
+[I 11:20:42.662 NotebookApp] Serving notebooks from local directory: /scratch/users/ckoehler/datafest/datafest-2019/analysis
+[I 11:20:42.662 NotebookApp] The Jupyter Notebook is running at:
+[I 11:20:42.663 NotebookApp] http://127.0.0.1:50033/?token=6666353c8eca1e27e308bd90eb7aa560315664aa1d8df978
+[I 11:20:42.663 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 11:20:42.707 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///users/ckoehler/.local/share/jupyter/runtime/nbserver-34649-open.html
+    Or copy and paste one of these URLs:
+        http://127.0.0.1:50033/?token=6666353c8eca1e27e308bd90eb7aa560315664aa1d8df978
+  "ssh -L 50033:localhost:50033 ckoehler@login01.m2.smu.edu"
+[I 11:22:31.381 NotebookApp] 302 GET /?token=6666353c8eca1e27e308bd90eb7aa560315664aa1d8df978 (127.0.0.1) 0.86ms
+[I 11:23:18.961 NotebookApp] Kernel started: 71846e19-3d79-4078-98c8-fef23046f125
+[I 11:23:20.174 NotebookApp] Adapting to protocol v5.1 for kernel 71846e19-3d79-4078-98c8-fef23046f125
+[I 11:25:19.144 NotebookApp] Saving file at /datafest-main.ipynb
+[I 11:27:19.106 NotebookApp] Saving file at /datafest-main.ipynb
+[I 11:29:19.061 NotebookApp] Saving file at /datafest-main.ipynb
+[I 11:31:19.113 NotebookApp] Saving file at /datafest-main.ipynb
+[I 11:33:19.291 NotebookApp] Saving file at /datafest-main.ipynb
+[I 11:35:19.562 NotebookApp] Saving file at /datafest-main.ipynb
+[I 11:39:19.106 NotebookApp] Saving file at /datafest-main.ipynb
+[I 11:41:19.041 NotebookApp] Saving file at /datafest-main.ipynb
+[I 11:43:19.119 NotebookApp] Saving file at /datafest-main.ipynb
+[I 11:47:19.440 NotebookApp] Saving file at /datafest-main.ipynb
+[I 11:49:19.163 NotebookApp] Saving file at /datafest-main.ipynb
+[I 11:51:19.716 NotebookApp] Saving file at /datafest-main.ipynb
+[I 11:55:19.161 NotebookApp] Saving file at /datafest-main.ipynb
+[I 11:57:19.440 NotebookApp] Saving file at /datafest-main.ipynb
+[I 11:59:19.498 NotebookApp] Saving file at /datafest-main.ipynb
+[I 12:03:19.167 NotebookApp] Saving file at /datafest-main.ipynb
+[I 12:05:19.120 NotebookApp] Saving file at /datafest-main.ipynb
+[I 12:07:19.068 NotebookApp] Saving file at /datafest-main.ipynb
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/hpc/applications/anaconda/3/lib/python3.6/site-packages/jedi/cache.py", line 141, in wrapper
+    return dct[key]
+KeyError: ((), frozenset())
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/hpc/applications/anaconda/3/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 267, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/hpc/applications/anaconda/3/lib/python3.6/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/hpc/applications/anaconda/3/lib/python3.6/site-packages/tornado/gen.py", line 209, in wrapper
+    yielded = next(result)
+  File "/hpc/applications/anaconda/3/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 572, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/hpc/applications/anaconda/3/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 348, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/hpc/applications/anaconda/3/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 373, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/hpc/applications/anaconda/3/lib/python3.6/site-packages/IPython/core/completer.py", line 485, in rectify_completions
+    completions = list(completions)
+  File "/hpc/applications/anaconda/3/lib/python3.6/site-packages/IPython/core/completer.py", line 1814, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/hpc/applications/anaconda/3/lib/python3.6/site-packages/IPython/core/completer.py", line 1871, in _completions
+    signature = _make_signature(jm)
+  File "/hpc/applications/anaconda/3/lib/python3.6/site-packages/IPython/core/completer.py", line 990, in _make_signature
+    return '(%s)'% ', '.join([f for f in (_formatparamchildren(p) for p in completion.params) if f])
+  File "/hpc/applications/anaconda/3/lib/python3.6/site-packages/jedi/cache.py", line 143, in wrapper
+    result = method(self, *args, **kwargs)
+  File "/hpc/applications/anaconda/3/lib/python3.6/site-packages/jedi/api/classes.py", line 345, in params
+    raise AttributeError('There are no params defined on this.')
+AttributeError: There are no params defined on this.
+[I 12:09:19.418 NotebookApp] Saving file at /datafest-main.ipynb
+[IPKernelApp] ERROR | Exception in message handler:
+Traceback (most recent call last):
+  File "/hpc/applications/anaconda/3/lib/python3.6/site-packages/jedi/cache.py", line 141, in wrapper
+    return dct[key]
+KeyError: ((), frozenset())
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/hpc/applications/anaconda/3/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 267, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "/hpc/applications/anaconda/3/lib/python3.6/site-packages/tornado/gen.py", line 729, in run
+    value = future.result()
+  File "/hpc/applications/anaconda/3/lib/python3.6/site-packages/tornado/gen.py", line 209, in wrapper
+    yielded = next(result)
+  File "/hpc/applications/anaconda/3/lib/python3.6/site-packages/ipykernel/kernelbase.py", line 572, in complete_request
+    matches = yield gen.maybe_future(self.do_complete(code, cursor_pos))
+  File "/hpc/applications/anaconda/3/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 348, in do_complete
+    return self._experimental_do_complete(code, cursor_pos)
+  File "/hpc/applications/anaconda/3/lib/python3.6/site-packages/ipykernel/ipkernel.py", line 373, in _experimental_do_complete
+    completions = list(_rectify_completions(code, raw_completions))
+  File "/hpc/applications/anaconda/3/lib/python3.6/site-packages/IPython/core/completer.py", line 485, in rectify_completions
+    completions = list(completions)
+  File "/hpc/applications/anaconda/3/lib/python3.6/site-packages/IPython/core/completer.py", line 1814, in completions
+    for c in self._completions(text, offset, _timeout=self.jedi_compute_type_timeout/1000):
+  File "/hpc/applications/anaconda/3/lib/python3.6/site-packages/IPython/core/completer.py", line 1871, in _completions
+    signature = _make_signature(jm)
+  File "/hpc/applications/anaconda/3/lib/python3.6/site-packages/IPython/core/completer.py", line 990, in _make_signature
+    return '(%s)'% ', '.join([f for f in (_formatparamchildren(p) for p in completion.params) if f])
+  File "/hpc/applications/anaconda/3/lib/python3.6/site-packages/jedi/cache.py", line 143, in wrapper
+    result = method(self, *args, **kwargs)
+  File "/hpc/applications/anaconda/3/lib/python3.6/site-packages/jedi/api/classes.py", line 345, in params
+    raise AttributeError('There are no params defined on this.')
+AttributeError: There are no params defined on this.
+[I 12:11:19.087 NotebookApp] Saving file at /datafest-main.ipynb
+[I 12:21:19.425 NotebookApp] Saving file at /datafest-main.ipynb
+[I 12:25:19.481 NotebookApp] Saving file at /datafest-main.ipynb
+[I 12:43:19.083 NotebookApp] Saving file at /datafest-main.ipynb
+[I 12:49:19.144 NotebookApp] Saving file at /datafest-main.ipynb
+[I 12:49:49.577 NotebookApp] Starting buffering for 71846e19-3d79-4078-98c8-fef23046f125:84781412ebe4455b9eef2d3fa0fe10e4
+[I 12:49:54.107 NotebookApp] Kernel restarted: 71846e19-3d79-4078-98c8-fef23046f125
+[I 12:49:54.230 NotebookApp] Adapting to protocol v5.1 for kernel 71846e19-3d79-4078-98c8-fef23046f125
+[I 12:49:54.231 NotebookApp] Restoring connection for 71846e19-3d79-4078-98c8-fef23046f125:84781412ebe4455b9eef2d3fa0fe10e4
+[I 12:49:54.231 NotebookApp] Replaying 7 buffered messages
+[I 12:50:49.435 NotebookApp] Kernel interrupted: 71846e19-3d79-4078-98c8-fef23046f125
+[I 12:51:19.073 NotebookApp] Saving file at /datafest-main.ipynb
+[I 12:53:19.370 NotebookApp] Saving file at /datafest-main.ipynb
+[I 12:57:19.584 NotebookApp] Saving file at /datafest-main.ipynb
+[I 13:01:19.200 NotebookApp] Saving file at /datafest-main.ipynb
+[I 13:17:19.093 NotebookApp] Saving file at /datafest-main.ipynb
+[I 13:19:19.052 NotebookApp] Saving file at /datafest-main.ipynb
+[I 13:21:19.192 NotebookApp] Saving file at /datafest-main.ipynb
+[I 13:23:19.510 NotebookApp] Saving file at /datafest-main.ipynb
+[I 13:27:19.408 NotebookApp] Saving file at /datafest-main.ipynb
+[I 13:31:19.130 NotebookApp] Saving file at /datafest-main.ipynb
+[I 13:43:19.131 NotebookApp] Saving file at /datafest-main.ipynb
+[I 13:47:19.453 NotebookApp] Saving file at /datafest-main.ipynb
+[I 13:49:19.170 NotebookApp] Saving file at /datafest-main.ipynb
+[I 13:51:19.494 NotebookApp] Saving file at /datafest-main.ipynb
+[I 13:55:19.107 NotebookApp] Saving file at /datafest-main.ipynb
+[I 13:57:19.070 NotebookApp] Saving file at /datafest-main.ipynb
+[I 13:59:19.484 NotebookApp] Saving file at /datafest-main.ipynb
+[I 14:01:19.179 NotebookApp] Saving file at /datafest-main.ipynb
+[I 14:03:19.435 NotebookApp] Saving file at /datafest-main.ipynb
+[I 14:05:19.551 NotebookApp] Saving file at /datafest-main.ipynb
+[I 14:07:19.616 NotebookApp] Saving file at /datafest-main.ipynb
+[I 14:09:19.091 NotebookApp] Saving file at /datafest-main.ipynb
+[I 14:11:20.625 NotebookApp] Saving file at /datafest-main.ipynb
+[I 14:13:19.162 NotebookApp] Saving file at /datafest-main.ipynb
+[I 14:15:19.166 NotebookApp] Saving file at /datafest-main.ipynb
+[I 14:17:19.176 NotebookApp] Saving file at /datafest-main.ipynb
+[I 14:23:19.131 NotebookApp] Saving file at /datafest-main.ipynb
+[I 14:25:19.159 NotebookApp] Saving file at /datafest-main.ipynb
+[I 14:27:19.097 NotebookApp] Saving file at /datafest-main.ipynb
+[I 14:29:19.705 NotebookApp] Saving file at /datafest-main.ipynb
+[I 14:31:19.175 NotebookApp] Saving file at /datafest-main.ipynb
+[I 14:35:19.108 NotebookApp] Saving file at /datafest-main.ipynb
+[I 14:37:19.085 NotebookApp] Saving file at /datafest-main.ipynb
+[I 14:39:19.157 NotebookApp] Saving file at /datafest-main.ipynb
+[I 14:41:19.165 NotebookApp] Saving file at /datafest-main.ipynb
+[I 14:41:41.485 NotebookApp] Kernel interrupted: 71846e19-3d79-4078-98c8-fef23046f125
+[I 14:43:19.164 NotebookApp] Saving file at /datafest-main.ipynb
+[I 14:45:19.101 NotebookApp] Saving file at /datafest-main.ipynb
+[I 14:51:19.216 NotebookApp] Saving file at /datafest-main.ipynb
+[I 14:53:19.103 NotebookApp] Saving file at /datafest-main.ipynb
+[I 14:55:19.501 NotebookApp] Saving file at /datafest-main.ipynb
+[I 14:57:19.526 NotebookApp] Saving file at /datafest-main.ipynb
+[I 14:59:19.244 NotebookApp] Saving file at /datafest-main.ipynb
+[I 15:05:19.106 NotebookApp] Saving file at /datafest-main.ipynb
+[I 15:07:19.187 NotebookApp] Saving file at /datafest-main.ipynb
+[I 15:17:19.188 NotebookApp] Saving file at /datafest-main.ipynb
+[I 15:23:19.175 NotebookApp] Saving file at /datafest-main.ipynb
+[I 15:25:19.172 NotebookApp] Saving file at /datafest-main.ipynb
+[I 15:27:19.299 NotebookApp] Saving file at /datafest-main.ipynb
+[I 15:29:19.149 NotebookApp] Saving file at /datafest-main.ipynb
+[I 15:31:19.207 NotebookApp] Saving file at /datafest-main.ipynb
+[I 15:33:19.101 NotebookApp] Saving file at /datafest-main.ipynb
+[I 15:35:19.099 NotebookApp] Saving file at /datafest-main.ipynb
+[I 15:35:45.040 NotebookApp] Saving file at /datafest-main.ipynb
