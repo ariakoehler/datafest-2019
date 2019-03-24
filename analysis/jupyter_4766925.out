@@ -1,0 +1,52 @@
+[I 08:47:06.385 NotebookApp] JupyterLab extension loaded from /hpc/applications/anaconda/3/lib/python3.6/site-packages/jupyterlab
+[I 08:47:06.386 NotebookApp] JupyterLab application directory is /hpc/applications/anaconda/3/share/jupyter/lab
+[I 08:47:06.388 NotebookApp] Serving notebooks from local directory: /scratch/users/ckoehler/datafest/datafest-2019/analysis
+[I 08:47:06.388 NotebookApp] The Jupyter Notebook is running at:
+[I 08:47:06.388 NotebookApp] http://127.0.0.1:50077/?token=d9a47db6b469ec0ce01e9a3a2e796339a397766e91b93c4f
+[I 08:47:06.388 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 08:47:06.426 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///users/ckoehler/.local/share/jupyter/runtime/nbserver-25941-open.html
+    Or copy and paste one of these URLs:
+        http://127.0.0.1:50077/?token=d9a47db6b469ec0ce01e9a3a2e796339a397766e91b93c4f
+  "ssh -L 50077:localhost:50077 ckoehler@login01.m2.smu.edu"
+[I 08:48:00.071 NotebookApp] 302 GET /?token=d9a47db6b469ec0ce01e9a3a2e796339a397766e91b93c4f (127.0.0.1) 0.70ms
+[I 08:49:02.081 NotebookApp] Kernel started: d0db035d-76f5-4650-a580-463076979ced
+[I 08:49:03.358 NotebookApp] Adapting to protocol v5.1 for kernel d0db035d-76f5-4650-a580-463076979ced
+[I 08:51:02.327 NotebookApp] Saving file at /datafest-main.ipynb
+[I 08:53:02.287 NotebookApp] Saving file at /datafest-main.ipynb
+[I 08:55:02.426 NotebookApp] Saving file at /datafest-main.ipynb
+[I 08:57:02.257 NotebookApp] Saving file at /datafest-main.ipynb
+[I 08:59:02.240 NotebookApp] Saving file at /datafest-main.ipynb
+[I 09:01:02.320 NotebookApp] Saving file at /datafest-main.ipynb
+[I 09:03:02.276 NotebookApp] Saving file at /datafest-main.ipynb
+[I 09:05:02.321 NotebookApp] Saving file at /datafest-main.ipynb
+[I 09:07:02.219 NotebookApp] Saving file at /datafest-main.ipynb
+[I 09:09:02.513 NotebookApp] Saving file at /datafest-main.ipynb
+[I 09:11:02.275 NotebookApp] Saving file at /datafest-main.ipynb
+[I 09:13:02.286 NotebookApp] Saving file at /datafest-main.ipynb
+[I 09:15:02.325 NotebookApp] Saving file at /datafest-main.ipynb
+[I 09:19:02.320 NotebookApp] Saving file at /datafest-main.ipynb
+[I 09:29:02.321 NotebookApp] Saving file at /datafest-main.ipynb
+[I 09:31:02.331 NotebookApp] Saving file at /datafest-main.ipynb
+[I 09:33:02.246 NotebookApp] Saving file at /datafest-main.ipynb
+[I 09:35:02.260 NotebookApp] Saving file at /datafest-main.ipynb
+[I 09:37:02.322 NotebookApp] Saving file at /datafest-main.ipynb
+[I 09:39:02.340 NotebookApp] Saving file at /datafest-main.ipynb
+[I 09:41:02.392 NotebookApp] Saving file at /datafest-main.ipynb
+[I 09:49:02.281 NotebookApp] Saving file at /datafest-main.ipynb
+[I 09:51:02.293 NotebookApp] Saving file at /datafest-main.ipynb
+[I 09:53:02.291 NotebookApp] Saving file at /datafest-main.ipynb
+[I 09:55:02.633 NotebookApp] Saving file at /datafest-main.ipynb
+[I 09:57:02.297 NotebookApp] Saving file at /datafest-main.ipynb
+[I 09:59:02.406 NotebookApp] Saving file at /datafest-main.ipynb
+[I 10:13:02.304 NotebookApp] Saving file at /datafest-main.ipynb
+[I 10:15:02.309 NotebookApp] Saving file at /datafest-main.ipynb
+[I 10:17:02.321 NotebookApp] Saving file at /datafest-main.ipynb
+[I 10:19:02.324 NotebookApp] Saving file at /datafest-main.ipynb
+[I 10:25:02.423 NotebookApp] Saving file at /datafest-main.ipynb
+[I 10:25:36.019 NotebookApp] Saving file at /datafest-main.ipynb
+[I 10:25:42.938 NotebookApp] Saving file at /datafest-main.ipynb
+[I 10:26:30.370 NotebookApp] Saving file at /datafest-main.ipynb
+[I 10:26:32.353 NotebookApp] Starting buffering for d0db035d-76f5-4650-a580-463076979ced:a4332dd006584b3ca4925b627a6ebbac
